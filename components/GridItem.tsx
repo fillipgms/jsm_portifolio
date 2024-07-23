@@ -104,7 +104,7 @@ const GridItem = ({
                 <p className="font-sans font-extralight md:text-xs lg:text-base text-sm text-[#C1C2D3] z-10">
                     {description}
                 </p>
-                <h3 className="font-sans text-lg lg:text-2xl max-w-96 font-bold z-10 false">
+                <h3 className="font-sans text-lg lg:text-2xl max-w-80 font-bold z-10 false">
                     {title}
                 </h3>
 
