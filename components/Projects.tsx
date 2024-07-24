@@ -9,9 +9,9 @@ const Projects = () => {
                 A small selection of{" "}
                 <span className="text-purple">recent projects</span>
             </h2>
-            <div className="grid grid-cols-2 gap-10">
-                {projects.map((project) => (
-                    <Card {...project} />
+            <div className="grid md:grid-cols-2 gap-10">
+                {projects.map((project, i) => (
+                    <Card {...project} key={i} />
                 ))}
             </div>
         </section>

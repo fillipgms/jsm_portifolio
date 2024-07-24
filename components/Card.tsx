@@ -20,7 +20,7 @@ const Card = ({
     return (
         <a href={link} target="_blank">
             <div className=" bg-black-100 border border-white-100/20 rounded-3xl p-5 space-y-5">
-                <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-black-150 to-black-200 to-90% rounded-3xl overflow-hidden max-h-64">
+                <div className="bg-black-150 flex justify-center rounded-3xl overflow-hidden max-h-64">
                     <img src={img} alt={img} />
                 </div>
 

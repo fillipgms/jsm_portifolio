@@ -2,10 +2,28 @@ import React from "react";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import { MdOutlineArrowOutward } from "react-icons/md";
 import ShiningButton from "./ui/ShiningButton";
+import { Spotlight } from "./ui/Spotlight";
 
 const Hero = () => {
     return (
         <section className="md:h-screen h-[80vh] overflow-hidden flex items-center justify-center">
+            <div>
+                <Spotlight
+                    className="-top-48 left-40 hidden md:block h-screen"
+                    fill="purple"
+                />
+
+                <Spotlight
+                    className="md:top-16 md:left-10 -top-10 h-screen"
+                    fill="white"
+                />
+
+                <Spotlight
+                    className="top-20 -left-80 hidden md:block h-screen"
+                    fill="blue"
+                />
+            </div>
+
             <div className="md:h-screen h-[80vh] w-full bg-grid-white/[0.02] bg-black-100 absolute flex items-center justify-center text-center inset-0">
                 <div className="absolute pointer-events-none inset-0 flex items-center justify-center bg-black-100 [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
             </div>
